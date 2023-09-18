@@ -1,0 +1,6 @@
+com\example\amigoscode\student\StudentRepository.class
+com\example\amigoscode\student\Student.class
+com\example\amigoscode\student\StudentController.class
+com\example\amigoscode\student\StudentService.class
+com\example\amigoscode\student\StudentConfig.class
+com\example\amigoscode\AmigoscodeApplication.class
