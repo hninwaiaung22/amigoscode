@@ -1,14 +1,12 @@
-version: '3.8'
+version: '3'
 
 services:
-  web:
-    build: .
-    ports:
-      - "8080:8080"  # Map your application's port to 8080
-
-  db:
+  mysql-db:
     image: mysql:latest
+    container_name: mysql-container
     environment:
-      POSTGRES_DB: sql12647073
-      POSTGRES_USER: sql12647073
-      POSTGRES_PASSWORD: hkYAruWkmD
+      MYSQL_DATABASE: sql12.freesqldatabase.com\sql12647073
+      MYSQL_USER: sql12647073
+      MYSQL_PASSWORD: hkYAruWkmD
+    ports:
+      - "3306:3306"
